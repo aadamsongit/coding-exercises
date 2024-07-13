@@ -1,0 +1,11 @@
+{
+  "name": "Scrim-s03hrno0fn",
+  "description": "https://v2.scrimba.com/s01q55v/s03hrno0fn",
+  "scripts": {
+    "start": "vite preview -- --outDir ."
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}

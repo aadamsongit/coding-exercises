@@ -1,0 +1,11 @@
+{
+  "name": "Scrim-s0eceek73k",
+  "description": "https://v2.scrimba.com/s01e4pm/s0eceek73k",
+  "scripts": {
+    "start": "vite preview -- --outDir ."
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
