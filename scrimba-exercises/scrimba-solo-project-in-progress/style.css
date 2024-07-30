@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    background-color: #23252C;
+    color: white;
+    font-family: Inter;
+}
+
+.img-header-container {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.info-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 317px;
+  background-color: #1A1B21;
+}
+
+.header-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 317px;
+  height: 317px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.my-name {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 6.19px;
+  margin-top: 21px;
+  background-color: #1A1B21;
+}
+
+.subtitle {
+  color: #F3BF99;
+  margin-top: 0px;
+  font-size: 12.8px;
+  background-color: #1A1B21;
+  margin-bottom: 8.8px;
+}
+
+.website {
+  background-color: #1A1B21;
+  font-size: 10.24px;
+  margin-top: 0px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  background-color: #1A1B21;
+}
+
+.email-btn {
+  width: 115px;
+  height: 34px;
+  border-radius: 8px;
+  background-color: white;
+  color: #374151;
+  border: none;
+  font-size: 14px;
+}
+
+.linkedin-btn {
+  width: 115px;
+  height: 34px;
+  border-radius: 8px;
+  background-color: #5093E2;
+  border: none;
+  font-size: 14px;
+}
+
+.about-container {
+  background-color: #1A1B21;
+  width: 317px;
+  padding-top: 33px;
+  overflow: auto;
+}
+
+.about-header {
+  max-width: 247px;
+  margin-left: 36px;
+  background-color: #1A1B21;
+  font-size: 16px;
+  margin-top: 0px;
+  padding-top: 0px;
+  color: #F5F5F5;
+}
+
+.fa-brands.fa-linkedin-in {
+  height: 16px;
+  width: 16px;
+  background-color: white;
+  color: #5093E2;
+  border-radius: 2px;
+  font-size: 12px;
+  padding-top: 2px;
+  margin-right: 6px;
+}
+
+.about-info {
+  background-color: #1A1B21;
+  font-size: 10.24px;
+  margin-left: 36px;
+  margin-right: 34px;
+  color: #DCDCDC;
+}
+
+.interests-header {
+  max-width: 247px;
+  margin-left: 36px;
+  background-color: #1A1B21;
+  font-size: 16px;
+  margin-top: 0px;
+  padding-top: 0px;
+  color: #F5F5F5;
+}
+
+.interests-info {
+  background-color: #1A1B21;
+  font-size: 10.24px;
+  margin-left: 36px;
+  margin-right: 34px;
+  color: #DCDCDC;
+}
+
+footer {
+  height: 64px;
+  width: 317px;
+  background-color: #161619;
+  display: flex;
+  flex-direction: row;
+}
+
+.fa-solid.fa-envelope {
+  height: 16px;
+  width: 16px;
+  color: #1E1F26;
+  background-color: white;
+  margin-right: 6px;
+  padding-top: 1px;
+  vertical-align: middle;
+  }
