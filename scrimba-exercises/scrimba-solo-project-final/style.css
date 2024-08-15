@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    background-color: #23252C;
+    color: white;
+    font-family: Inter;
+}
+
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  min-height: 100vh; /* Ensure it takes full height of the viewport */
+}
+
+.img-header-container {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.info-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 317px;
+  background-color: #1A1B21;
+}
+
+.header-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 317px;
+  height: 317px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.my-name {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 6.19px;
+  margin-top: 21px;
+  background-color: #1A1B21;
+}
+
+.subtitle {
+  color: #F3BF99;
+  margin-top: 0px;
+  font-size: 12.8px;
+  background-color: #1A1B21;
+  margin-bottom: 8.8px;
+}
+
+.website {
+  background-color: #1A1B21;
+  font-size: 10.24px;
+  margin-top: 0px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  background-color: #1A1B21;
+}
+
+.email-btn {
+  width: 115px;
+  height: 34px;
+  border-radius: 8px;
+  background-color: white;
+  color: #374151;
+  border: none;
+  font-size: 14px;
+}
+
+.email-btn:hover {
+  background-color: #374151;
+  color: white;
+  border: 1px solid white;
+}
+
+.linkedin-btn {
+  width: 115px;
+  height: 34px;
+  border-radius: 8px;
+  background-color: #5093E2;
+  border: none;
+  font-size: 14px;
+}
+
+.linkedin-btn:hover {
+  background-color: white;
+  color: #5093E2;
+  border: 1px solid #5093E2;
+}
+
+.about-container {
+  background-color: #1A1B21;
+  width: 317px;
+  padding-top: 33px;
+  overflow: auto;
+}
+
+.about-header {
+  max-width: 247px;
+  margin-left: 36px;
+  background-color: #1A1B21;
+  font-size: 16px;
+  margin-top: 0px;
+  padding-top: 0px;
+  color: #F5F5F5;
+  margin-bottom: 5px;
+}
+
+.fa-brands.fa-linkedin-in {
+  height: 16px;
+  width: 16px;
+  background-color: white;
+  color: #5093E2;
+  border-radius: 2px;
+  font-size: 12px;
+  padding-top: 2px;
+  margin-right: 6px;
+}
+
+.about-info {
+  background-color: #1A1B21;
+  font-size: 10.24px;
+  margin-left: 36px;
+  margin-right: 34px;
+  color: #DCDCDC;
+  line-height: 150%;
+}
+
+.interests-header {
+  max-width: 247px;
+  margin-left: 36px;
+  background-color: #1A1B21;
+  font-size: 16px;
+  margin-top: 0px;
+  padding-top: 0px;
+  color: #F5F5F5;
+  margin-bottom: 5px;
+}
+
+.interests-info {
+  background-color: #1A1B21;
+  font-size: 10.24px;
+  margin-left: 36px;
+  margin-right: 34px;
+  color: #DCDCDC;
+  line-height: 150%;
+  margin-bottom: 24px;
+}
+
+footer {
+  height: 64px;
+  width: 317px;
+  background-color: #161619;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  background-color: #161619;
+  padding-top: 19px;
+  padding: 0 73px; 
+  justify-content: space-between; 
+  align-items: center;
+  height: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.fa-solid.fa-envelope {
+  height: 16px;
+  width: 16px;
+  color: #1E1F26;
+  background-color: white;
+  margin-right: 6px;
+  padding-top: 1px;
+  vertical-align: middle;
+  }
+  
+  .fa-brands.fa-twitter {
+    height: 25px;
+    width: 25px;
+    background-color: #918E9B;
+    color: #161619;
+    margin-right: 20px;
+    padding-top: 4px;
+    padding-left: 2px;
+    font-size: 20px;
+    padding-right: 3px;
+    border-radius: 2px;
+    align-items: center;
+  }
+  
+  .fa-brands.fa-facebook-f {
+     height: 25px;
+    width: 25px;
+    background-color: #918E9B;
+    color: #161619;
+    margin-right: 20px;
+    padding-top: 4px;
+    padding-left: 6px;
+    font-size: 20px;
+    padding-right: 6px;
+    border-radius: 2px;
+    padding-bottom: -1px;
+  }
+  
+  .fa-brands.fa-instagram {
+      height: 25px;
+    width: 25px;
+    background-color: #918E9B;
+    color: #161619;
+    margin-right: 20px;
+    padding-top: 4px;
+    padding-left: 4px;
+    font-size: 20px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+  }
+  
+  .fa-brands.fa-github {
+    height: 25px;
+    width: 25px;
+    background-color: #918E9B;
+    color: #161619;
+    margin-right: 72px;
+    padding-top: 5px;
+    padding-left: 4px;
+    font-size: 18px;
+    padding-right: 8px;
+    border-radius: 2px;
+  }
+  
