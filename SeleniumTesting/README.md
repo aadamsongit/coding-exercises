@@ -1,9 +1,9 @@
 # Accessibility Testing Documentation
 
-Overview
+# Overview
 This documentation outlines the structure and implementation of automated accessibility tests using Selenium, Cucumber, and Axe-core. The aim is to ensure web pages comply with accessibility standards, thereby improving usability for individuals relying on assistive technologies.
 
-Folder Structure
+# Folder Structure
 The project is organized in the following manner:
 
 SeleniumTesting: The root directory containing all Selenium-related test files.
@@ -23,7 +23,7 @@ Given Step: This step initializes a browser session and navigates to the designa
 
 Then Step: This step executes the accessibility analysis using the Axe testing tool. It collects the results and checks for any accessibility violations. If violations are found, the test fails, providing an assertion message. Finally, it closes the browser session.
 
-JSON Output Explanation
+# JSON Output Explanation
 The results from the Axe accessibility tests are presented in a JSON format, which details the types of accessibility violations detected on the page. Each violation object typically includes:
 
 ID: A unique identifier for the violation type (e.g., 'button-name' for buttons lacking accessible text).
