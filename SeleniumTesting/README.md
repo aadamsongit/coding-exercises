@@ -43,5 +43,5 @@ Color contrast problems (color-contrast).
 Missing language attributes on HTML elements (html-has-lang).
 These elements are critical for ensuring that web content is accessible to users with disabilities.
 
-Conclusion
+# Conclusion
 This documentation provides an overview of the setup and execution of automated accessibility tests using Selenium, Cucumber, and Axe-core. By maintaining a structured approach, the project ensures that web applications meet accessibility standards, improving user experience for everyone.
