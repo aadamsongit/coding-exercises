@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@axe-core/webdriverjs": "^4.10.0",
+    "axe-core": "^4.10.2",
+    "chai": "^5.1.2",
+    "cucumber": "^6.0.7",
+    "selenium-webdriver": "^4.25.0"
+  }
+}
