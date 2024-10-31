@@ -10,15 +10,21 @@ SeleniumTesting: The root directory containing all Selenium-related test files.
 accessibility.feature: Defines scenarios for accessibility testing using a behavior-driven development (BDD) format.
 step_definitions/accessibilitySteps.js: Contains JavaScript functions that implement the steps outlined in the accessibility.feature file.
 support/cucumber.js: Configuration file for Cucumber, integrating with Selenium to enable feature files written in BDD style. This file specifies test execution options.
-Code Explanation
+
+# Code Explanation
 Importing Required Modules
 The necessary modules are imported at the beginning of the test scripts to facilitate the functionality of the tests:
 
 Cucumber Keywords: The Given and Then keywords from Cucumber allow the definition of steps in a BDD format, making the tests more readable and maintainable.
+
 Selenium WebDriver: The Builder class from Selenium WebDriver is used to configure and control a web browser (e.g., Chrome) for testing.
+
 Axe-core: The AxeBuilder from the @axe-core/webdriverjs package serves as the accessibility testing tool, which identifies accessibility violations on web pages.
+
 Assertions: The assert module is used to validate the outcomes of the tests, ensuring they meet the expected results.
+
 Step Definitions
+
 Given Step: This step initializes a browser session and navigates to the designated web page. It logs the navigation process, which aids in debugging.
 
 Then Step: This step executes the accessibility analysis using the Axe testing tool. It collects the results and checks for any accessibility violations. If violations are found, the test fails, providing an assertion message. Finally, it closes the browser session.
