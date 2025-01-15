@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html, .container, .navbar {
+  margin: 0;
+  padding: 0;
+}
+
+.headernav {
+    height: 100%;
+    max-height: 70px;
+    position: relative;
+    width: 550px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+/* airbnb 1 */
+
+.airbnb-logo {
+width: 82.02px;
+height: 25.35px;
+margin-left: 30px;
+margin-top: 22px;
+margin-bottom: 22px;
+}
+

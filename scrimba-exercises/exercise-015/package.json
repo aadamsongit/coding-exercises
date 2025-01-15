@@ -1,0 +1,19 @@
+{
+  "name": "Scrim-s01ualr",
+  "description": "https://scrimba.com/s01ualr/s0io45fph8/head",
+  "scripts": {
+    "watch": "webpack -w",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "react": "16.4.0",
+    "react-dom": "16.4.0",
+    "webpack": "^2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0",
+    "babel-loader": "^7.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*"
+  }
+}
